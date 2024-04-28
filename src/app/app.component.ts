@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { CrudPersonComponent } from './components/crud-person/crud-person.component';
+import { CrudPersonComponent } from './infrastructure/adapters/in/componentes/crud-person/crud-person.component';
 
 @Component({
   selector: 'app-root',
