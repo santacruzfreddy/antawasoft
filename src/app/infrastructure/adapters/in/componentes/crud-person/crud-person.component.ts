@@ -9,7 +9,7 @@ import { PersonOutPort } from '../../../../../domain/ports/out/personOutPort';
   selector: 'app-crud-person',
   standalone: true,
   imports: [InputTextModule,FieldsetModule],
-  providers:[PersonInAdapter,{provide:PersonInPort, useClass:PersonInAdapter},{provide:PersonOutPort, useClass:PersonOutAdapter}],
+  providers:[PersonInAdapter],
   templateUrl: './crud-person.component.html',
   styleUrl: './crud-person.component.scss'
 })

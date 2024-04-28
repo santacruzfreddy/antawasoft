@@ -13,6 +13,6 @@ export const appConfig: ApplicationConfig = {
     provideAnimations(),
     provideClientHydration(),
     provideHttpClient(),
-    graphqlProvider,
+    graphqlProvider
   ],
 };
